@@ -1,8 +1,9 @@
 import { Link, useLocation } from "wouter";
 import { useState, useEffect } from "react";
-import { Menu, X, Settings } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { company } from "@/data/company";
+import logoImg from "@assets/2cbf6ee3-c8bf-4008-84be-41fefe3f1f5d_1783650071320.png";
 
 export function Navbar() {
   const [location] = useLocation();
@@ -39,14 +40,13 @@ export function Navbar() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between">
           <Link href="/">
-            <div className="flex items-center gap-2 cursor-pointer group">
-              <Settings className={`w-8 h-8 ${isScrolled ? 'text-primary' : 'text-primary md:text-white'} transition-colors`} />
-              <div className="flex flex-col">
-                <span className={`text-xl font-bold tracking-tight leading-none ${isScrolled ? 'text-[#082B7A]' : 'text-[#082B7A] md:text-white'} transition-colors`}>
-                  FA SERVICIOS
-                </span>
-                <div className="h-1 w-1/2 bg-primary mt-0.5 group-hover:w-full transition-all duration-300"></div>
-              </div>
+            <div className="flex items-center cursor-pointer">
+              <img
+                src={logoImg}
+                alt="FA Servicios"
+                className={`object-contain transition-all duration-300 ${isScrolled ? 'h-10' : 'h-12'}`}
+                style={{ filter: isScrolled ? 'none' : 'drop-shadow(0 1px 3px rgba(0,0,0,0.4))' }}
+              />
             </div>
           </Link>
 

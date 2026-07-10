@@ -1,6 +1,7 @@
 import { Link } from "wouter";
 import { company } from "@/data/company";
-import { MapPin, Phone, Mail, Settings } from "lucide-react";
+import { MapPin, Phone, Mail } from "lucide-react";
+import logoImg from "@assets/2cbf6ee3-c8bf-4008-84be-41fefe3f1f5d_1783650071320.png";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -11,14 +12,13 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
           <div className="flex flex-col gap-4">
-            <div className="flex items-center gap-2">
-              <Settings className="w-8 h-8 text-primary" />
-              <div className="flex flex-col">
-                <span className="text-2xl font-bold tracking-tight leading-none text-white">
-                  FA SERVICIOS
-                </span>
-                <div className="h-1 w-12 bg-primary mt-1"></div>
-              </div>
+            <div className="flex items-center">
+              <img
+                src={logoImg}
+                alt="FA Servicios"
+                className="h-12 object-contain"
+                style={{ filter: 'brightness(0) invert(1)' }}
+              />
             </div>
             <p className="text-gray-300 mt-2 max-w-sm">
               {company.tagline}
