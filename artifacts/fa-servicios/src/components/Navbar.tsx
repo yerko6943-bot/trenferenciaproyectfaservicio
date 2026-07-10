@@ -100,7 +100,7 @@ export function Navbar() {
           mobileMenuOpen ? "translate-x-0" : "translate-x-full"
         } md:hidden flex flex-col pt-24 px-6 pb-6`}
       >
-        <ul className="flex flex-col gap-6 text-lg font-medium">
+        <ul className="flex flex-col gap-6 text-lg font-medium bg-white">
           {navLinks.map((link) => (
             <li key={link.href}>
               <Link href={link.href}>
