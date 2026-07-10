@@ -297,13 +297,14 @@ ${formData.descripcion}`
       {/* Map Section */}
       <section className="h-96 w-full bg-gray-200">
         <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11234.331234!2d-70.62!3d-26.34!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDIwJzI0LjAiUyA3MMKwMzcnMTIuMCJX!5e0!3m2!1sen!2scl!4v1620000000000!5m2!1sen!2scl" 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3702.1!2d-70.6222!3d-26.3456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96bccf9e20fe3a51%3A0x88a6cf5056e8773e!2sPanamericana%20Norte%20916%2C%20Cha%C3%B1aral%2C%20Atacama!5e0!3m2!1ses!2scl!4v1720000000000!5m2!1ses!2scl" 
           width="100%" 
           height="100%" 
           style={{ border: 0 }} 
-          allowFullScreen={false} 
+          allowFullScreen={true} 
           loading="lazy"
-          title="Ubicación FA Servicios"
+          referrerPolicy="no-referrer-when-downgrade"
+          title="Ubicación FA Servicios - Panamericana Norte 916, Chañaral"
         ></iframe>
       </section>
 
