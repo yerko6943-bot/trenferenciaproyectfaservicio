@@ -1,7 +1,7 @@
 import { Link } from "wouter";
 import { company } from "@/data/company";
 import { MapPin, Phone, Mail } from "lucide-react";
-import logoImg from "@assets/2cbf6ee3-c8bf-4008-84be-41fefe3f1f5d.png";
+import logoImg from "@assets/2cbf6ee3-c8bf-4008-84be-41fefe3f1f5d_1783652635457.png";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -17,7 +17,6 @@ export function Footer() {
                 src={logoImg}
                 alt="FA Servicios"
                 className="h-12 object-contain"
-                style={{ filter: 'brightness(0) invert(1)' }}
               />
             </div>
             <p className="text-gray-300 mt-2 max-w-sm">
