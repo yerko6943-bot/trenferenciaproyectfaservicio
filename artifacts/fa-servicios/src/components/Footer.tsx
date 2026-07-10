@@ -1,7 +1,7 @@
 import { Link } from "wouter";
 import { company } from "@/data/company";
 import { MapPin, Phone, Mail } from "lucide-react";
-import logoImg from "@assets/2cbf6ee3-c8bf-4008-84be-41fefe3f1f5d_1783650071320.png";
+import logoImg from "@assets/bb78fb50-5725-4800-9071-d84882f83e20.png";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
