@@ -1,0 +1,756 @@
+Copia y pega este prompt completo en **Replit**:
+
+```text
+Desarrolla un sitio web corporativo moderno, profesional y responsivo para “FA SERVICIOS”, una empresa ubicada en Chañaral dedicada a la mantención y reparación de equipos, servicios industriales, fabricación de estructuras, apoyo operacional y arriendo de maquinaria.
+
+OBJETIVO DEL SITIO
+
+El sitio debe permitir que un potencial cliente comprenda rápidamente:
+
+1. Qué servicios ofrece FA Servicios.
+2. Qué trabajos y proyectos ha realizado.
+3. En qué zona presta servicios.
+4. Cómo solicitar una cotización.
+5. Cómo contactar directamente con la empresa.
+
+El enfoque principal debe ser mostrar los servicios y trabajos realizados, generar confianza y facilitar el contacto.
+
+No crear tienda online, carrito de compras, sistema de pagos, blog ni funciones de portafolio personal.
+
+INFORMACIÓN DE LA EMPRESA
+
+Nombre:
+FA SERVICIOS
+
+Frase corporativa:
+Mantención, reparación y soluciones industriales para empresas.
+
+Ubicación:
+Chañaral, Región de Atacama, Chile.
+
+Teléfono y WhatsApp:
++56 9 5785 7419
+
+Correo electrónico:
+faserviciocontacto@gmail.com
+
+Dirección:
+Panamericana Norte 916, Chañaral
+
+Enlace de WhatsApp:
+https://wa.me/56957857419?text=Hola%20FA%20Servicios,%20necesito%20solicitar%20una%20cotización.
+
+DISEÑO Y ESTÉTICA
+
+El diseño debe seguir el estilo corporativo industrial de las imágenes de referencia proporcionadas.
+
+Paleta de colores:
+
+- Azul corporativo: #082B7A
+- Azul marino profundo: #031B4E
+- Rojo corporativo: #D60824
+- Blanco: #FFFFFF
+- Gris claro: #F3F5F8
+- Gris para textos secundarios: #5D6470
+
+Estilo visual:
+
+- Industrial, moderno, serio y profesional.
+- Fondos azul oscuro con fotografías industriales.
+- Fotografías con tratamiento o filtro azul corporativo.
+- Elementos geométricos rojos como detalles decorativos.
+- Paneles blancos con terminaciones diagonales.
+- Tipografía sans-serif moderna, como Montserrat, Inter o Manrope.
+- Títulos grandes, robustos y claros.
+- Botones rojos con texto blanco.
+- Mucho espacio limpio para facilitar la lectura.
+- Sombras suaves.
+- Bordes ligeramente redondeados.
+- Diseño coherente en todas las páginas.
+- Evitar colores diferentes al azul, rojo, blanco y gris.
+- No usar efectos de neón, estética futurista exagerada ni elementos infantiles.
+
+ENCABEZADOS DE LAS PÁGINAS
+
+Cada página debe tener un hero o encabezado visual con:
+
+- Fondo industrial azul oscuro.
+- Fotografía profesional en el lado derecho.
+- Espacio oscuro y despejado en el lado izquierdo.
+- Logo de FA Servicios en la parte superior izquierda dentro de un panel blanco.
+- Bloque o línea roja decorativa.
+- Título escrito mediante HTML, no integrado dentro de la fotografía.
+- Parallax muy sutil al hacer scroll.
+- Correcta adaptación para celulares.
+
+ESTRUCTURA DEL SITIO
+
+Crear tres páginas principales:
+
+1. Nuestra Empresa
+2. Proyectos Realizados
+3. Servicios y Contacto
+
+La primera página también funcionará como página de inicio.
+
+NAVEGACIÓN
+
+Crear una barra de navegación fija en la parte superior.
+
+Elementos:
+
+- Logo de FA Servicios a la izquierda.
+- Enlaces:
+  - Nuestra Empresa
+  - Proyectos Realizados
+  - Servicios y Contacto
+- Botón destacado:
+  - Solicitar cotización
+
+El botón debe abrir WhatsApp en una nueva pestaña.
+
+Al desplazarse por la página:
+
+- Reducir ligeramente la altura de la navegación.
+- Aplicar un fondo blanco o azul oscuro sólido.
+- Agregar una sombra suave.
+- Mantener el logo visible.
+
+En celulares debe convertirse en un menú hamburguesa animado.
+
+PÁGINA 1: NUESTRA EMPRESA
+
+Esta será la página de inicio.
+
+HERO PRINCIPAL
+
+Usar una imagen industrial profesional con un trabajador, casco, maquinaria o instalaciones industriales.
+
+Composición:
+
+- Texto a la izquierda.
+- Imagen o trabajador a la derecha.
+- Fondo azul oscuro.
+- Detalle decorativo rojo.
+- Logo visible en la parte superior.
+
+Contenido:
+
+Texto pequeño:
+SOLUCIONES INDUSTRIALES
+
+Título:
+FA SERVICIOS
+
+Subtítulo:
+Mantención, reparación y soluciones industriales para mantener tu operación en funcionamiento.
+
+Texto:
+Atendemos empresas y operaciones industriales en Chañaral y distintas localidades de la Región de Atacama.
+
+Botón principal:
+Solicitar cotización
+
+Debe abrir WhatsApp.
+
+Botón secundario:
+Conocer nuestros trabajos
+
+Debe dirigir a la página Proyectos Realizados.
+
+Agregar un indicador discreto de desplazamiento hacia abajo.
+
+SECCIÓN QUIÉNES SOMOS
+
+Diseño en dos columnas:
+
+- Imagen industrial a la izquierda.
+- Texto a la derecha.
+
+Título:
+Experiencia y compromiso en cada servicio
+
+Texto:
+
+FA Servicios es una empresa regional con capitales 100% locales, ubicada en la comuna de Chañaral. Entregamos soluciones de mantención, reparación, servicios industriales, arriendo de equipos y apoyo operacional.
+
+Desde hace más de cuatro años trabajamos para responder a las necesidades de nuestros clientes, velando por la continuidad y el control operacional mediante nuestra experiencia, capacidades técnicas e infraestructura.
+
+Contamos con profesionales y trabajadores capacitados para desarrollar cada servicio de manera responsable, segura y eficiente.
+
+SECCIÓN PRINCIPALES ÁREAS DE TRABAJO
+
+Crear tres tarjetas profesionales.
+
+1. Mantención y reparación de equipos
+
+Descripción:
+Inspección, diagnóstico, reparación y cambio de componentes para equipos pesados y livianos.
+
+2. Servicios industriales
+
+Descripción:
+Mantención de instalaciones, reparación de estructuras, fabricación de piezas, limpieza industrial y obras menores.
+
+3. Arriendo de equipos
+
+Descripción:
+Maquinaria y equipos de apoyo para trabajos industriales, operacionales y de mantenimiento.
+
+Cada tarjeta debe tener:
+
+- Imagen relacionada.
+- Título.
+- Descripción breve.
+- Botón “Ver servicios”.
+- Elevación suave al pasar el cursor.
+- Zoom mínimo en la imagen.
+
+SECCIÓN POR QUÉ ELEGIR FA SERVICIOS
+
+Crear cuatro bloques con iconos lineales.
+
+Respuesta oportuna:
+Atendemos los requerimientos de nuestros clientes con rapidez y responsabilidad.
+
+Personal capacitado:
+Contamos con trabajadores y profesionales preparados para desarrollar labores industriales.
+
+Compromiso con la seguridad:
+Planificamos y ejecutamos cada trabajo respetando los procedimientos de seguridad.
+
+Soluciones adaptadas:
+Evaluamos cada requerimiento para entregar una solución acorde con la operación del cliente.
+
+SECCIÓN COMPROMISO OPERACIONAL
+
+Usar fondo azul oscuro y texto blanco.
+
+Título:
+Trabajamos para mantener la continuidad de tu operación
+
+Texto:
+Nuestro objetivo es entregar soluciones confiables, eficientes y seguras, reduciendo los tiempos de detención y apoyando las necesidades operacionales de cada cliente.
+
+Botón:
+Hablar con un asesor
+
+El botón debe abrir WhatsApp.
+
+PÁGINA 2: PROYECTOS REALIZADOS
+
+HERO DE PROYECTOS
+
+Utilizar una sola imagen profesional, no un collage.
+
+La imagen debe mostrar trabajadores realizando mantención industrial, usando casco, guantes y elementos de protección personal.
+
+Texto pequeño:
+EXPERIENCIA EN TERRENO
+
+Título:
+Proyectos Realizados
+
+Descripción:
+Conoce algunos de los trabajos de mantención, reparación y apoyo industrial desarrollados por FA Servicios.
+
+GALERÍA DE PROYECTOS
+
+Crear una galería moderna.
+
+En escritorio:
+
+- Tres columnas.
+- Algunas tarjetas pueden ser más grandes para destacar proyectos.
+
+En celulares:
+
+- Una sola columna.
+
+Cada proyecto debe incluir:
+
+- Imagen.
+- Nombre del trabajo.
+- Categoría.
+- Descripción breve.
+- Ubicación opcional.
+- Botón “Ver proyecto”.
+
+PROYECTOS INICIALES
+
+1. Reparación y pintura de piezas
+
+Categoría:
+Fabricación y reparación
+
+Descripción:
+Preparación, reparación y aplicación de pintura industrial en piezas y componentes.
+
+2. Reparación de sinfín
+
+Categoría:
+Mantenimiento industrial
+
+Descripción:
+Reparación y recuperación de sistema sinfín para asegurar su correcto funcionamiento.
+
+3. Reparación de estructuras
+
+Categoría:
+Estructuras metálicas
+
+Descripción:
+Reparación, refuerzo y recuperación de estructuras utilizadas en operaciones industriales.
+
+4. Limpieza de estanques australianos
+
+Categoría:
+Limpieza industrial
+
+Descripción:
+Limpieza y mantenimiento interior de estanques para conservar sus condiciones operacionales.
+
+5. Cambio de guardera en cinta transportadora
+
+Categoría:
+Sistemas de transporte
+
+Descripción:
+Reemplazo y ajuste de guarderas en cintas utilizadas para el traslado de materiales.
+
+6. Mantención de generador industrial
+
+Categoría:
+Equipos eléctricos
+
+Descripción:
+Revisión, diagnóstico y mantención preventiva de generadores industriales.
+
+7. Cambio de componentes
+
+Categoría:
+Reparación de equipos
+
+Descripción:
+Reemplazo de componentes mecánicos para recuperar el funcionamiento del equipo.
+
+8. Fabricación de estructuras
+
+Categoría:
+Fabricación industrial
+
+Descripción:
+Diseño, fabricación e instalación de estructuras adaptadas a las necesidades del cliente.
+
+FILTROS DE PROYECTOS
+
+Agregar estos filtros:
+
+- Todos
+- Mantención
+- Reparación
+- Fabricación
+- Limpieza industrial
+- Equipos
+- Estructuras
+
+La transición entre categorías debe ser suave.
+
+DETALLE DEL PROYECTO
+
+Al presionar “Ver proyecto”, abrir una vista detallada o modal con:
+
+- Imagen principal.
+- Nombre del proyecto.
+- Categoría.
+- Descripción.
+- Galería de imágenes.
+- Actividades ejecutadas.
+- Resultado del servicio.
+- Botón “Solicitar un trabajo similar”.
+
+No inventar clientes, métricas ni resultados.
+
+Dejar los contenidos preparados para ser editados posteriormente.
+
+LLAMADO A LA ACCIÓN
+
+Usar fondo azul oscuro.
+
+Título:
+¿Necesitas realizar un trabajo similar?
+
+Texto:
+Envíanos los antecedentes de tu requerimiento y te ayudaremos a evaluar una solución.
+
+Botón:
+Solicitar cotización por WhatsApp
+
+PÁGINA 3: SERVICIOS Y CONTACTO
+
+HERO
+
+Usar una imagen profesional de trabajadores, maquinaria o equipos industriales.
+
+Texto pequeño:
+SOLUCIONES PARA TU OPERACIÓN
+
+Título:
+Servicios y Contacto
+
+Descripción:
+Conoce nuestras áreas de servicio y comunícate directamente con nuestro equipo.
+
+SECCIÓN DE SERVICIOS
+
+Crear bloques alternados con imagen y texto.
+
+SERVICIO 1: MANTENCIÓN Y REPARACIÓN DE EQUIPOS
+
+Descripción:
+Realizamos inspección, diagnóstico, mantención preventiva, reparación y cambio de componentes para equipos pesados y livianos.
+
+Incluir:
+
+- Mantención preventiva.
+- Mantención correctiva.
+- Revisión de componentes.
+- Cambio de piezas.
+- Reparación de equipos.
+- Diagnóstico de fallas.
+- Mantención de generadores.
+
+SERVICIO 2: SERVICIOS INDUSTRIALES GENERALES
+
+Descripción:
+Ejecutamos trabajos orientados al mantenimiento, mejoramiento y continuidad de instalaciones y procesos industriales.
+
+Incluir:
+
+- Mantención y limpieza de áreas industriales.
+- Limpieza de estanques.
+- Reparación de sinfines.
+- Reparación de estructuras.
+- Cambio de guarderas.
+- Fabricación de piezas.
+- Obras menores.
+- Soldadura y reparación.
+
+SERVICIO 3: FABRICACIÓN Y ESTRUCTURAS
+
+Descripción:
+Desarrollamos soluciones metálicas adaptadas a las necesidades operacionales de cada cliente.
+
+Incluir:
+
+- Fabricación de estructuras.
+- Reparación de piezas metálicas.
+- Refuerzo de componentes.
+- Modificación de equipos.
+- Pintura industrial.
+- Instalación en terreno.
+
+SERVICIO 4: ARRIENDO DE EQUIPOS
+
+Descripción:
+Disponemos de maquinaria y equipos de apoyo para distintas necesidades operacionales.
+
+Equipos:
+
+- Minicargador.
+- Retroexcavadora.
+- Camión tolva.
+- Motosoldadora.
+- Bomba de trasvasije.
+- Generador.
+
+Agregar esta nota:
+La disponibilidad de equipos debe confirmarse directamente con FA Servicios.
+
+SERVICIO 5: INSPECCIÓN Y REGISTRO DE VEHÍCULOS
+
+Descripción:
+Servicio de inspección vehicular con generación de informes, observaciones y respaldo fotográfico.
+
+Incluir:
+
+- Registro de ingreso vehicular.
+- Inspección visual.
+- Registro de observaciones.
+- Informe de inspección.
+- Respaldo mediante fotografías.
+
+SECCIÓN DE CONTACTO
+
+Crear una sección de dos columnas.
+
+COLUMNA IZQUIERDA
+
+Título:
+Conversemos sobre tu requerimiento
+
+Texto:
+Cuéntanos qué servicio necesitas, dónde se realizará el trabajo y en qué fecha lo requieres. Nuestro equipo se pondrá en contacto contigo.
+
+Datos:
+
+WhatsApp:
++56 9 5785 7419
+
+Teléfono:
++56 9 5785 7419
+
+Correo:
+faserviciocontacto@gmail.com
+
+Dirección:
+Panamericana Norte 916, Chañaral
+
+Cobertura:
+Chañaral y otras localidades de la Región de Atacama.
+
+Agregar botones:
+
+- Hablar por WhatsApp.
+- Llamar ahora.
+- Enviar correo.
+
+COLUMNA DERECHA
+
+Crear un formulario con:
+
+- Nombre completo.
+- Empresa.
+- Teléfono.
+- Correo electrónico.
+- Ciudad o ubicación del trabajo.
+- Servicio requerido.
+- Descripción del requerimiento.
+- Fecha aproximada.
+- Adjuntar fotografías opcional.
+
+Botón:
+Enviar solicitud
+
+Agregar:
+
+- Validación de campos.
+- Estado de carga.
+- Mensaje de confirmación.
+- Mensaje de error comprensible.
+- Protección básica contra spam.
+
+El formulario puede utilizar un servicio externo o preparar un correo electrónico.
+
+No mostrar credenciales ni claves en el frontend.
+
+MAPA
+
+Incluir un mapa responsivo con la dirección:
+
+Panamericana Norte 916, Chañaral
+
+BOTÓN FLOTANTE DE WHATSAPP
+
+Debe aparecer en las tres páginas.
+
+Características:
+
+- Forma circular.
+- Ícono de WhatsApp.
+- Fijo en la esquina inferior derecha.
+- Texto al pasar el cursor: “Solicitar cotización”.
+- Tamaño visible pero discreto.
+- Correcta separación de los bordes en celulares.
+
+Enlace:
+https://wa.me/56957857419?text=Hola%20FA%20Servicios,%20necesito%20solicitar%20una%20cotización.
+
+PIE DE PÁGINA
+
+Usar fondo azul marino oscuro.
+
+Incluir:
+
+- Logo de FA Servicios.
+- Texto:
+  Mantención, reparación y soluciones industriales.
+- Enlaces:
+  - Nuestra Empresa
+  - Proyectos Realizados
+  - Servicios y Contacto
+  - WhatsApp
+  - Correo electrónico
+- Teléfono: +56 9 5785 7419
+- Correo: faserviciocontacto@gmail.com
+- Dirección: Panamericana Norte 916, Chañaral
+
+Texto final:
+© FA Servicios. Todos los derechos reservados.
+
+El año debe actualizarse automáticamente.
+
+ANIMACIONES
+
+Las animaciones deben ser suaves y profesionales.
+
+Incluir:
+
+- Aparición progresiva al hacer scroll.
+- Movimiento sutil de abajo hacia arriba.
+- Parallax ligero en los encabezados.
+- Zoom mínimo en imágenes al pasar el cursor.
+- Transiciones suaves en botones.
+- Subrayado animado en los enlaces.
+- Cambio suave entre páginas.
+
+No incluir:
+
+- Cursor personalizado.
+- Efecto de máquina de escribir.
+- Sonidos.
+- Efectos de neón.
+- Animaciones exageradas.
+- Pantallas de carga largas.
+
+OPTIMIZACIÓN PARA CELULARES
+
+- Menú hamburguesa.
+- Textos completamente legibles.
+- Botones con altura mínima de 44 píxeles.
+- Tarjetas en una sola columna.
+- Formularios de ancho completo.
+- Imágenes correctamente recortadas.
+- Evitar desplazamiento horizontal.
+- Mantener visible el botón de WhatsApp.
+- Adaptar el hero para que la imagen no tape el texto.
+- Optimizar las imágenes para conexiones móviles.
+
+REQUISITOS TÉCNICOS
+
+Utilizar:
+
+- React.
+- Vite.
+- TypeScript.
+- Tailwind CSS.
+- React Router.
+- Lucide Icons.
+- Framer Motion para animaciones discretas.
+- Componentes reutilizables.
+- Código limpio y organizado.
+
+Estructura sugerida:
+
+src/
+  assets/
+    logo/
+    favicon/
+    heroes/
+    projects/
+  components/
+    Navbar.tsx
+    Footer.tsx
+    Hero.tsx
+    SectionTitle.tsx
+    ServiceCard.tsx
+    ProjectCard.tsx
+    ContactForm.tsx
+    WhatsAppButton.tsx
+  pages/
+    CompanyPage.tsx
+    ProjectsPage.tsx
+    ServicesContactPage.tsx
+    ProjectDetailPage.tsx
+  data/
+    company.ts
+    services.ts
+    projects.ts
+  App.tsx
+  main.tsx
+
+ADMINISTRACIÓN DEL CONTENIDO
+
+Guardar la información en archivos separados para facilitar su edición.
+
+Crear:
+
+- src/data/company.ts
+- src/data/services.ts
+- src/data/projects.ts
+
+Cada proyecto debe incluir:
+
+- id
+- title
+- category
+- description
+- coverImage
+- gallery
+- location
+- activities
+- result
+
+IMÁGENES
+
+Preparar espacios para cargar:
+
+- Logo completo de FA Servicios.
+- Icono cuadrado de engranajes.
+- Imagen principal de Nuestra Empresa.
+- Imagen principal de Proyectos Realizados.
+- Imagen principal de Servicios y Contacto.
+- Fotografías de proyectos reales.
+- Fotografías de maquinaria y equipos.
+
+No modificar ni rediseñar el logo de FA Servicios.
+
+Usar imágenes temporales solamente cuando todavía no estén cargadas las imágenes reales.
+
+Identificar claramente qué archivos deben ser reemplazados.
+
+Aplicar:
+
+- Lazy loading.
+- Formato WebP cuando sea posible.
+- Texto alternativo descriptivo.
+- object-fit: cover.
+- Tamaños responsivos.
+- Compresión de imágenes.
+
+SEO Y ACCESIBILIDAD
+
+Agregar:
+
+- Título diferente para cada página.
+- Meta descripción.
+- Open Graph.
+- Favicon.
+- Jerarquía correcta de H1, H2 y H3.
+- Contraste adecuado.
+- Navegación mediante teclado.
+- Etiquetas visibles en formularios.
+- Texto alternativo en las imágenes.
+- Nombres accesibles en botones.
+- Estados de foco visibles.
+
+Título SEO principal:
+FA Servicios | Mantención y Servicios Industriales en Chañaral
+
+Descripción SEO:
+Empresa de mantención, reparación de equipos, servicios industriales, fabricación de estructuras y arriendo de maquinaria en Chañaral y la Región de Atacama.
+
+RESULTADO ESPERADO
+
+El sitio debe transmitir:
+
+- Profesionalismo.
+- Seguridad.
+- Experiencia en terreno.
+- Confianza.
+- Solidez empresarial.
+- Capacidad de respuesta.
+- Orden y claridad.
+
+El resultado final debe parecer el sitio web de una empresa industrial consolidada, utilizando el estilo corporativo azul, blanco y rojo de las imágenes de referencia.
+```
