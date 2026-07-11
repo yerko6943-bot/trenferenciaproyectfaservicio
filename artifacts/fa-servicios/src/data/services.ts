@@ -1,5 +1,5 @@
 import transporteImg from "@assets/WhatsApp_Image_2026-07-10_at_10.00.37_PM_1783735411839.jpeg";
-import arriendoImg from "@assets/Captura_de_pantalla_2026-07-10_230440_1783739109097.png";
+import arriendoImg from "@assets/ChatGPT_Image_10_jul_2026,_11_07_35_p.m._1783739269403.png";
 
 export const services = [
   {
