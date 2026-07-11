@@ -44,7 +44,7 @@ export function Navbar() {
               <img
                 src={logoImg}
                 alt="FA Servicios"
-                className={`object-contain transition-all duration-300 ${isScrolled ? 'h-10' : 'h-12'}`}
+                className={`object-contain transition-all duration-300 ${isScrolled ? 'h-14' : 'h-16'}`}
                 style={{ filter: isScrolled ? 'none' : 'drop-shadow(0 1px 3px rgba(0,0,0,0.4))' }}
               />
             </div>
