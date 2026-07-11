@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { company } from "@/data/company";
-import logoImg from "@assets/2cbf6ee3-c8bf-4008-84be-41fefe3f1f5d_1783650071320.png";
+import logoImg from "@/assets/logo-transparent.png";
 
 export function Navbar() {
   const [location] = useLocation();
