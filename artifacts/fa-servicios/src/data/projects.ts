@@ -5,6 +5,7 @@ import reparEstructurasImg from "@assets/Gemini_Generated_Image_v4rm5iv4rm5iv4rm
 import estanquesImg from "@assets/2df89f37-c62c-4618-b1c8-43d4da3676db_1783737120882.png";
 import componentesImg from "@assets/7a7a6a1e-1528-495d-a641-4630fe036dab_1783737170783.png";
 import guarderaImg from "@assets/285714ca-3158-44c0-ba52-3bb4b8f16650_1783737255335.png";
+import generadorImg from "@assets/b0739c56-038c-4f11-890f-795203d1443a_1783737300173.png";
 
 export const projects = [
   {
@@ -65,7 +66,7 @@ export const projects = [
     description: "Revisión, diagnóstico y mantención preventiva de generadores industriales.",
     activities: ["Inspección eléctrica", "Cambio de filtros y aceite", "Pruebas de carga"],
     result: "Generador revisado y en condiciones óptimas.",
-    image: "https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?w=600&q=80&auto=format&fit=crop"
+    image: generadorImg
   },
   {
     id: 7,
