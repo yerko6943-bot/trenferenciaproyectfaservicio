@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: 1,
-    title: "Reparación y pintura de piezas",
+    title: "Reparación y pintura de piezas industriales",
     category: "Fabricación",
     filterCategory: "Fabricación",
     description: "Preparación, reparación y aplicación de pintura industrial en piezas y componentes.",
