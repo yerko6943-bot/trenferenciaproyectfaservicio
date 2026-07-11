@@ -24,7 +24,7 @@ export default function ServicesContactPage() {
     ciudad: "",
     servicio: "",
     descripcion: "",
-    fecha: ""
+    
   });
 
   useEffect(() => {
@@ -56,7 +56,7 @@ Teléfono: ${formData.telefono}
 Correo: ${formData.correo}
 Ciudad: ${formData.ciudad}
 Servicio Requerido: ${formData.servicio}
-Fecha aproximada: ${formData.fecha}
+
 
 Descripción:
 ${formData.descripcion}`
@@ -161,7 +161,7 @@ ${formData.descripcion}`
               <div>
                 <h2 className="text-3xl font-bold mb-4">Conversemos sobre tu requerimiento</h2>
                 <p className="text-gray-300 mb-12">
-                  Cuéntanos qué servicio necesitas, dónde se realizará el trabajo y en qué fecha lo requieres. Nuestro equipo se pondrá en contacto contigo.
+                  Cuéntanos qué servicio necesitas y dónde se realizará el trabajo. Nuestro equipo se pondrá en contacto contigo.
                 </p>
                 
                 <div className="space-y-8">
@@ -242,10 +242,6 @@ ${formData.descripcion}`
                   <div className="space-y-2">
                     <label htmlFor="ciudad" className="text-sm font-medium text-gray-700">Ciudad o ubicación del trabajo</label>
                     <Input id="ciudad" name="ciudad" value={formData.ciudad} onChange={handleChange} placeholder="Ej. Chañaral" />
-                  </div>
-                  <div className="space-y-2">
-                    <label htmlFor="fecha" className="text-sm font-medium text-gray-700">Fecha aproximada</label>
-                    <Input id="fecha" name="fecha" type="date" value={formData.fecha} onChange={handleChange} />
                   </div>
                 </div>
 
