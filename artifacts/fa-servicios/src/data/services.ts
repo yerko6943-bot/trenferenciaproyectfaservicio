@@ -1,4 +1,5 @@
 import transporteImg from "@assets/WhatsApp_Image_2026-07-10_at_10.00.37_PM_1783735411839.jpeg";
+import arriendoImg from "@assets/Captura_de_pantalla_2026-07-10_230440_1783739109097.png";
 
 export const services = [
   {
@@ -59,7 +60,7 @@ export const services = [
       "Generador"
     ],
     note: "La disponibilidad de equipos debe confirmarse directamente con FA Servicios.",
-    image: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=1200&q=80&auto=format&fit=crop"
+    image: arriendoImg
   },
   {
     id: 5,
