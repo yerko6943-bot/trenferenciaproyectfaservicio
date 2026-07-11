@@ -5,6 +5,7 @@ import reparEstructurasImg from "@assets/Gemini_Generated_Image_v4rm5iv4rm5iv4rm
 import estanquesImg from "@assets/2df89f37-c62c-4618-b1c8-43d4da3676db_1783737120882.png";
 import componentesImg from "@assets/7a7a6a1e-1528-495d-a641-4630fe036dab_1783737170783.png";
 import guarderaImg from "@assets/285714ca-3158-44c0-ba52-3bb4b8f16650_1783737255335.png";
+import mixerImg from "@assets/87e53f9f-a3f2-4f36-a148-dd1b7ba8b2f5_1783737369834.png";
 import generadorImg from "@assets/b0739c56-038c-4f11-890f-795203d1443a_1783737300173.png";
 
 export const projects = [
@@ -87,5 +88,15 @@ export const projects = [
     activities: ["Diseño y planificación", "Fabricación en taller", "Instalación en terreno"],
     result: "Estructura fabricada e instalada correctamente.",
     image: estructurasImg
+  },
+  {
+    id: 9,
+    title: "Mantención de camión mixer",
+    category: "Reparación de equipos",
+    filterCategory: "Reparación",
+    description: "Revisión, mantención y reparación de camión hormigonero para restablecer su operatividad en faena.",
+    activities: ["Inspección general del equipo", "Revisión de sistema hidráulico", "Mantención de tambor mezclador", "Pruebas de funcionamiento"],
+    result: "Camión mixer operativo y listo para trabajar en faena.",
+    image: mixerImg
   }
 ];
