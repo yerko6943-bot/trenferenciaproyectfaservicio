@@ -1,3 +1,5 @@
+import pinturaImg from "@assets/watermarked_img_8514322678472680764_1783736690222.jpg";
+
 export const projects = [
   {
     id: 1,
@@ -7,7 +9,7 @@ export const projects = [
     description: "Preparación, reparación y aplicación de pintura industrial en piezas y componentes.",
     activities: ["Preparación de superficie", "Reparación de piezas", "Aplicación de pintura industrial"],
     result: "Piezas recuperadas y listas para operación.",
-    image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=600&q=80&auto=format&fit=crop"
+    image: pinturaImg
   },
   {
     id: 2,
