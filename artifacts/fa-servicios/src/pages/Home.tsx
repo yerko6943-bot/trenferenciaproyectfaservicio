@@ -48,7 +48,7 @@ export default function Home() {
                 SOLUCIONES INDUSTRIALES
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight">
-                FA SERVICIOS
+                <span className="bg-gradient-to-r from-red-500 via-red-400 to-orange-400 bg-clip-text text-transparent drop-shadow-lg">FA SERVICIOS</span>
               </h1>
               <p className="text-xl md:text-2xl font-medium text-gray-200 mb-4">
                 Mantención, reparación y soluciones industriales para mantener tu operación en funcionamiento.
