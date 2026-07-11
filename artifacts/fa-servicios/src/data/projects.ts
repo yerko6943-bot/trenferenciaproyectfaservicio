@@ -3,6 +3,7 @@ import sinfinImg from "@assets/Gemini_Generated_Image_g0bae0g0bae0g0ba_178373683
 import estructurasImg from "@assets/Gemini_Generated_Image_v4rm5iv4rm5iv4rm_1783736933962.png";
 import reparEstructurasImg from "@assets/Gemini_Generated_Image_v4rm5iv4rm5iv4rm_1783737048971.png";
 import estanquesImg from "@assets/2df89f37-c62c-4618-b1c8-43d4da3676db_1783737120882.png";
+import componentesImg from "@assets/7a7a6a1e-1528-495d-a641-4630fe036dab_1783737170783.png";
 
 export const projects = [
   {
@@ -73,7 +74,7 @@ export const projects = [
     description: "Reemplazo de componentes mecánicos para recuperar el funcionamiento del equipo.",
     activities: ["Diagnóstico de falla", "Retiro de componentes dañados", "Instalación de nuevos componentes"],
     result: "Equipo recuperado y operativo.",
-    image: "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?w=600&q=80&auto=format&fit=crop"
+    image: componentesImg
   },
   {
     id: 8,
