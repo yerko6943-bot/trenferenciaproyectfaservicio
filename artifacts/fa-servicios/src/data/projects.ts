@@ -1,5 +1,6 @@
 import pinturaImg from "@assets/watermarked_img_8514322678472680764_1783736690222.jpg";
 import sinfinImg from "@assets/Gemini_Generated_Image_g0bae0g0bae0g0ba_1783736835378.png";
+import estructurasImg from "@assets/Gemini_Generated_Image_v4rm5iv4rm5iv4rm_1783736933962.png";
 
 export const projects = [
   {
@@ -80,6 +81,6 @@ export const projects = [
     description: "Diseño, fabricación e instalación de estructuras adaptadas a las necesidades del cliente.",
     activities: ["Diseño y planificación", "Fabricación en taller", "Instalación en terreno"],
     result: "Estructura fabricada e instalada correctamente.",
-    image: "https://images.unsplash.com/photo-1565514020179-026b92b84bb6?w=600&q=80&auto=format&fit=crop"
+    image: estructurasImg
   }
 ];
