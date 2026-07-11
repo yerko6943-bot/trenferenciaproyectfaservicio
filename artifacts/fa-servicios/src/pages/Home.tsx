@@ -24,7 +24,6 @@ export default function Home() {
         description="Empresa de mantención, reparación de equipos, servicios industriales, fabricación de estructuras y arriendo de maquinaria en Chañaral y la Región de Atacama."
       />
       <Navbar />
-
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 md:pt-48 md:pb-32 bg-[#031B4E] overflow-hidden">
         <div className="absolute inset-0 z-0 opacity-40">
@@ -53,9 +52,8 @@ export default function Home() {
               <p className="text-xl md:text-2xl font-medium text-gray-200 mb-4">
                 Mantención, reparación y soluciones industriales para mantener tu operación en funcionamiento.
               </p>
-              <p className="text-lg text-gray-400 mb-8 max-w-lg">
-                Atendemos empresas y operaciones industriales en Chañaral y distintas localidades de la Región de Atacama.
-              </p>
+              <p className="text-lg text-gray-400 mb-8 max-w-lg">Atendemos empresas y operaciones industriales, entregando soluciones confiables y adaptadas a las necesidades de cada cliente.
+</p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a href={company.whatsappUrl} target="_blank" rel="noopener noreferrer">
                   <Button size="lg" className="w-full sm:w-auto text-base">
@@ -85,7 +83,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Quiénes Somos */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4 md:px-6">
@@ -125,7 +122,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Principales Áreas de Trabajo */}
       <section className="py-20 bg-[#F3F5F8]">
         <div className="container mx-auto px-4 md:px-6">
@@ -182,7 +178,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Por qué elegir FA Servicios */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4 md:px-6">
@@ -221,7 +216,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Compromiso Operacional CTA */}
       <section className="relative py-24 bg-[#031B4E] overflow-hidden">
         <div className="absolute right-0 top-0 w-1/2 h-full hidden lg:block opacity-20">
@@ -247,7 +241,6 @@ export default function Home() {
           </motion.div>
         </div>
       </section>
-
       <Footer />
       <WhatsAppButton />
     </div>
