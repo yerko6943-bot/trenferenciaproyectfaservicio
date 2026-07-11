@@ -71,5 +71,19 @@ export const services = [
       "Respaldo mediante fotografías"
     ],
     image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80&auto=format&fit=crop"
+  },
+  {
+    id: 6,
+    title: "Transporte y Logística",
+    description: "Brindamos soluciones de transporte y apoyo logístico para empresas y operaciones industriales, asegurando un servicio responsable, seguro y adaptado a las necesidades de cada cliente.",
+    activities: [
+      "Transporte de materiales y equipos",
+      "Apoyo logístico en terreno",
+      "Traslado de maquinaria",
+      "Coordinación de cargas",
+      "Transporte en zona industrial",
+      "Servicio adaptado al cliente"
+    ],
+    image: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1200&q=80&auto=format&fit=crop"
   }
 ];
