@@ -4,6 +4,7 @@ import estructurasImg from "@assets/Gemini_Generated_Image_v4rm5iv4rm5iv4rm_1783
 import reparEstructurasImg from "@assets/Gemini_Generated_Image_v4rm5iv4rm5iv4rm_1783737048971.png";
 import estanquesImg from "@assets/2df89f37-c62c-4618-b1c8-43d4da3676db_1783737120882.png";
 import componentesImg from "@assets/7a7a6a1e-1528-495d-a641-4630fe036dab_1783737170783.png";
+import guarderaImg from "@assets/285714ca-3158-44c0-ba52-3bb4b8f16650_1783737255335.png";
 
 export const projects = [
   {
@@ -54,7 +55,7 @@ export const projects = [
     description: "Reemplazo y ajuste de guarderas en cintas utilizadas para el traslado de materiales.",
     activities: ["Retiro de guarderas dañadas", "Instalación de nuevas guarderas", "Ajuste y alineación"],
     result: "Cinta transportadora operativa.",
-    image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&q=80&auto=format&fit=crop"
+    image: guarderaImg
   },
   {
     id: 6,
