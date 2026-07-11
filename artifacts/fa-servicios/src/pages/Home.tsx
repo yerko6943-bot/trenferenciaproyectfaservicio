@@ -9,6 +9,7 @@ import { Clock, Users, ShieldCheck, Cog } from "lucide-react";
 import { motion } from "framer-motion";
 import { useLocation } from "wouter";
 import equipoImg from "@assets/ChatGPT_Image_10_jul_2026,_10_54_38_p.m._1783738490191.png";
+import bannerImg from "@assets/ChatGPT_Image_10_jul_2026,_11_36_53_p.m._1783741251383.png";
 import { useEffect } from "react";
 
 export default function Home() {
@@ -37,6 +38,7 @@ export default function Home() {
         </div>
         
         <div className="container mx-auto px-4 md:px-6 relative z-10">
+          <img src={bannerImg} alt="FA Servicios" className="w-full max-w-lg mb-8 rounded-sm" />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <motion.div 
               initial={{ opacity: 0, y: 30 }}
