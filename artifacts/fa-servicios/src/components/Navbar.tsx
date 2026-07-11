@@ -40,12 +40,11 @@ export function Navbar() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between">
           <Link href="/">
-            <div className="flex items-center cursor-pointer">
+            <div className={`flex items-center cursor-pointer px-3 py-2 rounded-lg transition-all duration-300 ${isScrolled ? 'bg-white shadow-sm border border-gray-100' : 'bg-white/10 backdrop-blur-sm border border-white/20'}`}>
               <img
                 src={logoImg}
                 alt="FA Servicios"
-                className={`object-contain transition-all duration-300 ${isScrolled ? 'h-14' : 'h-16'}`}
-                style={{ filter: isScrolled ? 'none' : 'drop-shadow(0 1px 3px rgba(0,0,0,0.4))' }}
+                className={`object-contain transition-all duration-300 ${isScrolled ? 'h-12' : 'h-14'}`}
               />
             </div>
           </Link>
