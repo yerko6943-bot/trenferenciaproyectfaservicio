@@ -48,7 +48,7 @@ export default function Home() {
                 SOLUCIONES INDUSTRIALES
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight">
-                <span className="inline-block text-white px-4 py-1 rounded-sm" style={{background: 'linear-gradient(to right, #d90824 60%, transparent 100%)'}}>F.A. SERVICIOS</span>
+                <span className="inline-block bg-gradient-to-r from-red-700 via-red-600 to-transparent text-white px-4 py-1 rounded-sm">F.A. SERVICIOS</span>
               </h1>
               <p className="text-xl md:text-2xl font-medium text-gray-200 mb-4">
                 Mantención, reparación y soluciones industriales para mantener tu operación en funcionamiento.
