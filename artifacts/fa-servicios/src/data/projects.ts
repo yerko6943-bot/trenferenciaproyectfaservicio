@@ -1,6 +1,7 @@
 import pinturaImg from "@assets/watermarked_img_8514322678472680764_1783736690222.jpg";
 import sinfinImg from "@assets/Gemini_Generated_Image_g0bae0g0bae0g0ba_1783736835378.png";
 import estructurasImg from "@assets/Gemini_Generated_Image_v4rm5iv4rm5iv4rm_1783736933962.png";
+import reparEstructurasImg from "@assets/Gemini_Generated_Image_v4rm5iv4rm5iv4rm_1783737048971.png";
 
 export const projects = [
   {
@@ -31,7 +32,7 @@ export const projects = [
     description: "Reparación, refuerzo y recuperación de estructuras utilizadas en operaciones industriales.",
     activities: ["Inspección de estructura", "Refuerzo y reparación", "Instalación en terreno"],
     result: "Estructura recuperada y reforzada.",
-    image: "https://images.unsplash.com/photo-1532054045814-c48f95a43b2a?w=600&q=80&auto=format&fit=crop"
+    image: reparEstructurasImg
   },
   {
     id: 4,
