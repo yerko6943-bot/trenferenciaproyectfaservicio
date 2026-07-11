@@ -1,3 +1,5 @@
+import transporteImg from "@assets/WhatsApp_Image_2026-07-10_at_10.00.37_PM_1783735411839.jpeg";
+
 export const services = [
   {
     id: 1,
@@ -84,6 +86,6 @@ export const services = [
       "Transporte en zona industrial",
       "Servicio adaptado al cliente"
     ],
-    image: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1200&q=80&auto=format&fit=crop"
+    image: transporteImg
   }
 ];
