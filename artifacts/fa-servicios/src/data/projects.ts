@@ -2,6 +2,7 @@ import pinturaImg from "@assets/watermarked_img_8514322678472680764_178373669022
 import sinfinImg from "@assets/Gemini_Generated_Image_g0bae0g0bae0g0ba_1783736835378.png";
 import estructurasImg from "@assets/Gemini_Generated_Image_v4rm5iv4rm5iv4rm_1783736933962.png";
 import reparEstructurasImg from "@assets/Gemini_Generated_Image_v4rm5iv4rm5iv4rm_1783737048971.png";
+import estanquesImg from "@assets/2df89f37-c62c-4618-b1c8-43d4da3676db_1783737120882.png";
 
 export const projects = [
   {
@@ -42,7 +43,7 @@ export const projects = [
     description: "Limpieza y mantenimiento interior de estanques para conservar sus condiciones operacionales.",
     activities: ["Vaciado del estanque", "Limpieza interior", "Inspección y registro"],
     result: "Estanque limpio y en condiciones operacionales.",
-    image: "https://images.unsplash.com/photo-1615810220261-002f1aeb8515?w=600&q=80&auto=format&fit=crop"
+    image: estanquesImg
   },
   {
     id: 5,
