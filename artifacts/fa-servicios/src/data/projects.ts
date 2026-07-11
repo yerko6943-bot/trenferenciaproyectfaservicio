@@ -1,4 +1,5 @@
 import pinturaImg from "@assets/watermarked_img_8514322678472680764_1783736690222.jpg";
+import sinfinImg from "@assets/Gemini_Generated_Image_g0bae0g0bae0g0ba_1783736835378.png";
 
 export const projects = [
   {
@@ -19,7 +20,7 @@ export const projects = [
     description: "Reparación y recuperación de sistema sinfín para asegurar su correcto funcionamiento.",
     activities: ["Diagnóstico del sistema", "Reparación de componentes", "Pruebas de funcionamiento"],
     result: "Sistema sinfín operativo.",
-    image: "https://images.unsplash.com/photo-1580982327559-c1202864ee05?w=600&q=80&auto=format&fit=crop"
+    image: sinfinImg
   },
   {
     id: 3,
