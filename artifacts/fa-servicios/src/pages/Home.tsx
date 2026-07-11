@@ -8,6 +8,7 @@ import { company } from "@/data/company";
 import { Clock, Users, ShieldCheck, Cog } from "lucide-react";
 import { motion } from "framer-motion";
 import { useLocation } from "wouter";
+import equipoImg from "@assets/ChatGPT_Image_10_jul_2026,_10_54_38_p.m._1783738490191.png";
 import { useEffect } from "react";
 
 export default function Home() {
@@ -96,7 +97,7 @@ export default function Home() {
             >
               <div className="relative rounded-lg overflow-hidden shadow-xl aspect-square md:aspect-[4/3]">
                 <img 
-                  src="https://images.unsplash.com/photo-1532054045814-c48f95a43b2a?w=800&q=80&auto=format&fit=crop" 
+                  src={equipoImg}
                   alt="Equipo FA Servicios" 
                   className="w-full h-full object-cover"
                   loading="lazy"
