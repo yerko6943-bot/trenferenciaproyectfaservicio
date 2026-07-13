@@ -15,7 +15,7 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog";
-import { CheckCircle2, ChevronRight } from "lucide-react";
+import { CheckCircle2, ChevronRight, X } from "lucide-react";
 
 export default function ProjectsPage() {
   const [filter, setFilter] = useState("Todos");
@@ -143,7 +143,7 @@ export default function ProjectsPage() {
       {/* Project Modal */}
       <Dialog open={!!selectedProject} onOpenChange={(open) => !open && setSelectedProject(null)}>
         {selectedProject && (
-          <DialogContent className="max-w-4xl p-0 overflow-hidden bg-white">
+          <DialogContent className="max-w-4xl p-0 overflow-hidden bg-white [&>button:last-child]:hidden">
             <div className="relative h-64 md:h-80">
               <img 
                 src={selectedProject.image} 
@@ -151,6 +151,14 @@ export default function ProjectsPage() {
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+              {/* Close button — top-left, always visible, min 44×44px touch target */}
+              <button
+                onClick={() => setSelectedProject(null)}
+                aria-label="Cerrar proyecto"
+                className="absolute top-3 left-3 z-50 flex items-center justify-center w-11 h-11 rounded-full bg-white/80 hover:bg-white backdrop-blur-sm shadow-md transition-all duration-200 hover:scale-110"
+              >
+                <X className="w-5 h-5 text-gray-900" strokeWidth={2.5} />
+              </button>
               <div className="absolute bottom-6 left-6 right-6">
                 <Badge className="bg-primary hover:bg-primary border-none mb-3">
                   {selectedProject.category}
