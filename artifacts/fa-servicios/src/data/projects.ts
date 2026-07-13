@@ -51,7 +51,7 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Cambio de guardera en cinta transportadora",
+    title: "Reparaciones y Cambio de guardera en cinta transportadora",
     category: "Sistemas de transporte",
     filterCategory: "Mantención",
     description: "Reemplazo y ajuste de guarderas en cintas utilizadas para el traslado de materiales.",
