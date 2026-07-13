@@ -1,6 +1,6 @@
 import pinturaImg from "@assets/watermarked_img_8514322678472680764_1783736690222.jpg";
 import sinfinImg from "@assets/Gemini_Generated_Image_g0bae0g0bae0g0ba_1783736835378.png";
-import estructurasImg from "@assets/Gemini_Generated_Image_v4rm5iv4rm5iv4rm_1783736933962.png";
+import estructurasImg from "@assets/d3090c9c-9039-450e-825b-3504ecdeb9d1_(1)_1783908972045.png";
 import reparEstructurasImg from "@assets/Gemini_Generated_Image_v4rm5iv4rm5iv4rm_1783737048971.png";
 import estanquesImg from "@assets/2df89f37-c62c-4618-b1c8-43d4da3676db_1783737120882.png";
 import componentesImg from "@assets/7a7a6a1e-1528-495d-a641-4630fe036dab_1783737170783.png";
