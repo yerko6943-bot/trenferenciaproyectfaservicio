@@ -144,7 +144,7 @@ export default function ProjectsPage() {
       {/* Project Modal */}
       <Dialog open={!!selectedProject} onOpenChange={(open) => !open && setSelectedProject(null)}>
         {selectedProject && (
-          <DialogContent className="relative max-w-4xl p-0 overflow-hidden bg-white">
+          <DialogContent className="max-w-4xl p-0 overflow-hidden bg-white max-h-[90vh] overflow-y-auto">
             <div className="relative h-64 md:h-80">
               <img 
                 src={selectedProject.image} 
