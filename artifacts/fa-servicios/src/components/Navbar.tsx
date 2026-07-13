@@ -40,7 +40,7 @@ export function Navbar() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between">
           <Link href="/">
-            <div className={`flex items-center cursor-pointer px-3 py-2 rounded-lg transition-all duration-300 ${isScrolled ? 'bg-white shadow-sm border border-gray-100' : 'bg-white/10 backdrop-blur-sm border border-white/20'}`}>
+            <div className="flex items-center cursor-pointer p-3 rounded-xl bg-white shadow-sm">
               <img
                 src={logoImg}
                 alt="FA Servicios"
